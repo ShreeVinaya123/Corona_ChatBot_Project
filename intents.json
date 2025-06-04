@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Is anyone there?", "Hey", "Good day"],
+      "responses": ["Hello! How can I assist you regarding COVID-19?", "Hi there! Ask me anything about COVID-19."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Stay safe! Goodbye!", "Take care! Let me know if you have more questions."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That was helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime! Stay safe."]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "What is covid?",
+        "What is covid-19?",
+        "Tell me about coronavirus",
+        "What are the symptoms of covid?",
+        "How does covid attack?",
+        "What are the effects of covid?",
+        "Symptoms of coronavirus",
+        "How covid spreads?",
+        "Is covid dangerous?"
+      ],
+      "responses": [
+        "COVID-19 is a respiratory illness caused by the coronavirus SARS-CoV-2.",
+        "Common symptoms include fever, cough, fatigue, and loss of taste or smell.",
+        "COVID-19 spreads through respiratory droplets when an infected person coughs or sneezes.",
+        "It can affect the lungs and other organs, especially in people with weak immunity.",
+        "Wearing a mask, washing hands regularly, and social distancing can help prevent the spread of COVID-19."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": ["What are the symptoms of COVID-19?", "COVID-19 symptoms", "How do I know if I have COVID?", "Signs of coronavirus"],
+      "responses": ["Common symptoms include fever, dry cough, tiredness, and difficulty breathing."]
+    },
+    {
+      "tag": "precautions",
+      "patterns": ["How can I protect myself from COVID-19?", "COVID-19 precautions", "How to prevent coronavirus?", "What are the safety measures?"],
+      "responses": ["Wear a mask, maintain social distancing, wash your hands regularly, and avoid crowded places."]
+    },
+    {
+      "tag": "treatment",
+      "patterns": ["What is the treatment for COVID-19?", "Is there a cure for COVID?", "How is COVID-19 treated?", "Can COVID be cured?"],
+      "responses": ["Most people recover with rest and supportive care. Severe cases may need hospital treatment. Please consult a doctor."]
+    },
+    {
+      "tag": "vaccine",
+      "patterns": ["Is there a vaccine for COVID-19?", "COVID-19 vaccine", "Should I take the vaccine?", "Vaccination information"],
+      "responses": ["Yes, COVID-19 vaccines are available. It is recommended to get vaccinated to reduce the risk of severe illness."]
+    },
+    {
+      "tag": "testing",
+      "patterns": ["Where can I get tested for COVID-19?", "COVID-19 testing near me", "How do I test for coronavirus?", "Testing centers"],
+      "responses": ["You can get tested at nearby government hospitals or authorized labs. Please check your local health department website."]
+    },
+    {
+      "tag": "quarantine",
+      "patterns": ["What is quarantine?", "How long should I isolate?", "Do I need to quarantine?", "COVID-19 isolation rules"],
+      "responses": ["Quarantine usually lasts 5–14 days depending on exposure and symptoms. Follow your local health guidelines."]
+    },
+    {
+      "tag": "variants",
+      "patterns": ["What are COVID variants?", "Is there a new variant?", "Tell me about Omicron", "Variants of coronavirus"],
+      "responses": ["COVID-19 has several variants like Delta and Omicron. Variants may spread faster, so extra caution is advised."]
+    },
+    {
+      "tag": "helpline",
+      "patterns": ["COVID-19 helpline number", "Emergency contact for coronavirus", "Who do I call for help?", "COVID support number"],
+      "responses": ["You can call the government COVID-19 helpline at 1075 or check your state’s helpline number."]
+    }
+  ]
+}
